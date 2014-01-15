@@ -420,8 +420,8 @@
       var cell = $(node.children("td")[options.treeColumn]);
       if(childrenOf(node).length == 0)
       {
-        cell.prepend('<span class="expander-9"></span>');
-        //cell.find("span.expander").remove();
+        //cell.prepend('<span class="expander-9"></span>');
+        cell.find("span.expander").remove();
         return;
       }    
 
