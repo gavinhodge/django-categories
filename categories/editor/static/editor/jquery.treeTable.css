@@ -7,11 +7,12 @@
 /* jquery.treeTable.collapsible
  * ------------------------------------------------------------------------- */
 .treeTable tr td .expander {
-  background-color: red; /* Added 9 */
   background-position: left center;
   background-repeat: no-repeat;
   cursor: pointer;
   padding: 0;
+  padding-left: 21px;/* Added 9 */
+  padding-right: 10px;/* Added 9 */
   zoom: 1; /* IE7 Hack */
 }
 
