@@ -419,12 +419,14 @@
 
       var cell = $(node.children("td")[options.treeColumn]);
 
+      cell.prepend('<span class="expander"></span>');
+
       if(childrenOf(node).length == 0)
       {
-        cell.find("span.expander").remove();
+        //cell.find("span.expander").remove();
         return;
-      }
-      cell.prepend('<span class="expander"></span>');
+      }      
+      
       $(cell[0].firstChild).click(function() {
         node.toggleBranch();
       });
