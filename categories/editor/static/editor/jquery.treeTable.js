@@ -424,7 +424,7 @@
         cell.find("span.expander").remove();
         return;
       }
-      cell.prepend('<span style="margin-left: -' + options.indent + 'px; padding-left: ' + options.indent + 'px" class="expander"></span>');
+      cell.prepend('<span class="expander"></span>');
       $(cell[0].firstChild).click(function() {
         node.toggleBranch();
       });
