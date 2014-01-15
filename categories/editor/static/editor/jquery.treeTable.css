@@ -41,7 +41,7 @@
 /* jquery.treeTable.sortable
  * ------------------------------------------------------------------------- */
 .treeTable tr.selected, .treeTable tr.accept {
-  background-color: #3875d7;
+  background-color: #999;
   color: #fff;
 }
 
@@ -50,11 +50,7 @@
 }
 
 .treeTable tr.selected, .treeTable tr.ghost_row td {
-  padding : 5px;
-  background-color : #ccc;
-  border : dotted 1px #eee;
-  font-weight : bold;
-  text-align : center;
+  background-color : #999;
 }
 
 .treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
